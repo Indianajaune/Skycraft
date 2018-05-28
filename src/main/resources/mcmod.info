@@ -1,0 +1,17 @@
+[{
+	"modid": "skycraft",
+	"name": "Skycraft",
+	"description": "Add some lore to Minecraft.",
+	"version": "indev",
+	"credits": "Mojang, Gilded Games, Forge, Bukkit, the IC2 Team and all the modders out there.",
+	"logoFile": "skycraft.png",
+	"mcversion": "${mcversion}",
+	"url": "http://www.skycraft.net/",
+	"updateUrl": "",
+	"authorList": ["Indianajaune"],
+	"parent": "",
+	"screenshots": [],
+	"dependencies": [
+		"baubles", "ic2", "thaumcraft"
+	]
+}]
