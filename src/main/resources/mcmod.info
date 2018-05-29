@@ -11,6 +11,10 @@
 	"authorList": ["Indianajaune"],
 	"parent": "",
 	"screenshots": [],
+	"useDependencyInformation": "true",
+	"requiredMods": [
+		"baubles", "ic2", "thaumcraft"
+	],
 	"dependencies": [
 		"baubles", "ic2", "thaumcraft"
 	]
