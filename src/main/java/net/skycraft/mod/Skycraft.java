@@ -6,12 +6,15 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.server.permission.PermissionAPI;
 import org.apache.logging.log4j.Logger;
 import thaumcraft.api.*;
 import baubles.api.*;
 import ic2.api.tile.*;
 import thaumcraft.api.aspects.Aspect;
 import thaumcraft.api.aspects.AspectList;
+
+import static net.minecraftforge.server.permission.DefaultPermissionLevel.OP;
 
 @Mod(modid = Skycraft.MODID, name = Skycraft.NAME, version = Skycraft.VERSION, useMetadata = true)
 public class Skycraft
@@ -35,6 +38,7 @@ public class Skycraft
     {
         // some example code
 
+        PermissionAPI.registerNode("skycraft",OP, "Only those having divine power may interact with this.");
         logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
 
     }
