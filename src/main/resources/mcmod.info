@@ -1,0 +1,23 @@
+[
+{
+  "modid": "skycraft",
+  "name": "Skycraft",
+  "description": "Brings the lore into the game.",
+  "version": "0.0.1",
+  "mcversion": "${mcversion}",
+  "url": "http://www.skycraft.net/",
+  "updateUrl": "http://www.skycraft.net/versions.json",
+  "authorList": ["Indianajaune"],
+  "credits": "Mojang, Gilded Games, Forge, Bukkit, the IC2 Team and all the modders out there.",
+  "logoFile": "skycraft.png",
+  "useDependencyInformation": "true",
+  "parent": "aether_legacy",
+  "screenshots": ["screenshots/gods.png", "screenshots/egyptian.png", "screenshots/gc-oldbourne.jpg"],
+  "requiredMods": [
+    "baubles", "ic2", "thaumcraft"
+  ],
+  "dependencies": [
+    "baubles", "ic2", "thaumcraft"
+  ]
+}
+]
