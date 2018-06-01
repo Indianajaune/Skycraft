@@ -7,7 +7,6 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-
 @Mod(modid = Skycraft.MODID, name = Skycraft.NAME, version = Skycraft.VERSION, useMetadata = true)
 public class Skycraft
 {
@@ -27,7 +26,7 @@ public class Skycraft
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        
+
         logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 }
