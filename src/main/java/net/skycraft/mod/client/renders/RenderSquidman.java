@@ -6,10 +6,11 @@ import net.minecraft.entity.passive.EntitySquid;
 import net.minecraft.util.ResourceLocation;
 import net.skycraft.mod.Skycraft;
 import net.skycraft.mod.entities.EntitySquidman;
+import net.skycraft.mod.entities.models.ModelSquidman;
 
 public class RenderSquidman extends RenderLiving<EntitySquidman> {
 
-    public static final ResourceLocation TEXTURES = new ResourceLocation(Skycraft.MODID + ":textures/entities/squidman.png")
+    public static final ResourceLocation TEXTURES = new ResourceLocation(Skycraft.MODID + ":textures/entities/squidman.png");
 
     public RenderSquidman(RenderManager manager){
 
